@@ -31,6 +31,24 @@ Built as an AI internship project to demonstrate recommendation system design, m
 
 ---
 
+## 🌐 Live Demo
+
+Experience CareerCompass AI directly in your browser—no installation required.
+
+🔗 **Live Application:**  
+https://decodelabs-careercompass-ai-vlbajjhm5vuukd2khxehhb.streamlit.app/
+
+### Try it yourself
+
+1. Enter your name (optional).
+2. Complete the 12-question career assessment.
+3. Instantly receive your **Top 3 Technology Career Recommendations**.
+4. Explore your compatibility scores, personalized explanations, and the key skills required for each recommended career.
+
+> **Note:** This application is deployed on **Streamlit Community Cloud**. The initial load may take a few seconds if the app has been inactive.
+
+---
+
 # 📸 UI Showcase
 
 > Replace the image paths below with screenshots of your application.
@@ -58,15 +76,17 @@ Built as an AI internship project to demonstrate recommendation system design, m
 
 ```text
 career_compass_ai/
-├── app.py                # Main Streamlit application
-├── questionnaire.py      # Assessment questions
-├── careers_data.py       # Career database and weight matrix
-├── recommendation.py     # Recommendation engine
-├── styles.py             # Custom blue theme styling
-├── requirements.txt
-└── README.md
+├── app.py                      # Main Streamlit application
+├── questionnaire.py            # Assessment questions and input widgets
+├── careers_data.py             # Career database, skills, and weight matrix
+├── recommendation.py           # Rule-based recommendation engine
+├── styles.py                   # Custom CSS styling and UI theme
+├── requirements.txt            # Project dependencies
+├── README.md                   # Project documentation
+│
+└── .streamlit/
+    └── config.toml             # Streamlit theme configuration (light mode)
 ```
-
 ---
 
 ## 🚀 Getting Started
